@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+  margin: 0;
+  margin-top: -7px;
+  padding: 0;
+  background-color: #f5f4f4;
+}
+
+#wrapper {
+	width:1680px;
+	min-height:100%;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	height: 109px;
+	background-color: #f3e4e4;
+	margin: 0 auto;
+	
+}
+img{
+    max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+#logo {
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+nav {
+	width: 1024px;
+	margin-left: 20px;
+}
+
+#name {
+	width: 100%;
+	display: block;
+}
+
+
+main {
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding-bottom: 150px;
+}
+ul.nav {
+	display: inline;
+	font-size: 25px;
+	margin-left: -39px;
+	float: left;
+	margin-top: 35px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	list-style-type: none;
+	text-decoration: none;
+}
+nav ul, nav li{
+	display: inline;
+	font-size: 25px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 10px;
+}
+
+
+.programs ul, .programs li {
+	font-family: parisplus-clair, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:25px;
+		
+}
+
+.resume2 ul, .resume2 li { 
+	font-family: parisplus-clair, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:25px;
+}
+
+
+
+h1 {
+	margin-top: -10px;
+	width: 100%;
+	height: 130px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-family: beloved-script, sans-serif;
+	text-align: center;
+	font-size: 4em;
+	background-color: #fee7e6;
+	color: black;
+	border-bottom: 5px solid #dbcccc;
+}
+
+h2 {
+	font-family: beloved-script, sans-serif;
+	font-size: 70px;
+	text-decoration: underline solid #f3d3d6;
+	margin-bottom: -35px;
+	
+}
+h3 {
+	font-family: abril-titling-semicondensed, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	margin-top: -10px;
+}
+p {
+	font-family: parisplus-clair, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
+	margin-top: -25px;
+}
+
+#education {
+	margin-left: 150px;
+}
+
+#skills {
+	display: list-item;
+	margin-left: 150px;
+	
+}
+
+#personalinfo {
+	text-align: center;
+	font-size: 28px;
+	font-family: parisplus-clair, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 40px;
+}
+
+#interpersonal {
+	float:right;
+	margin-left: 100px;
+	margin-right: 300px;
+	margin-top: -235px;
+}
+
+
+a.external {
+	position: relative;
+	top: 40px;
+	font-family: abril-titling-semicondensed, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-color: black;
+	background-color: #f3d3d6;
+	font-size: 23px;
+  	padding: 12px 20px;
+  	border: none;
+	box-shadow: -5px 5px #c9a6a5;
+  	border-radius: 10px;
+  	cursor: pointer;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	margin-right: 50px;
+	text-decoration: none;
+}
+a:link {
+		color: black;
+	text-decoration: none;
+}
+a:visited {
+		color: #7f5454;
+	}
+a:hover {
+		color: #a16a6a;
+		background-color: #fff;
+	}
+a:focus {
+		color: #bd7d7d;
+		background-color: #fff;
+	}
+a:active {
+		color: #624141;
+		background-color: #fff;
+	}
+
+a.external:hover {
+	background-color: #f4d7df;
+}
+
+a.external:focus {
+	background-color: #f3bfcf;
+}
+
+a.current {
+	text-decoration: underline;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+} 
+#footer {
+	height: 100px;
+	width: 1680px;
+	background-color: #f3e4e4;
+	margin: 0 auto;
+  	bottom: 0;
+  	left: 0;
+}
+small { 
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+#copyright {
+	margin-left: 20px;
+	position: relative;
+	top: 30px;
+}
+
+#social img{
+	width: 40px;
+	height: 40px;
+	display: inline;
+	float: right;
+	margin-top: -10px;
+	margin-right: 25px;
+}
+
+
+
